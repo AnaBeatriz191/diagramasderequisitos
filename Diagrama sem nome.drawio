@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bCG8J4DTJ0kkA4FrQPj9-1" value="sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="bCG8J4DTJ0kkA4FrQPj9-1" value="sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="70" y="200" width="50" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bCG8J4DTJ0kkA4FrQPj9-2" value="usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="bCG8J4DTJ0kkA4FrQPj9-2" value="usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="650" y="200" width="50" height="75" as="geometry" />
         </mxCell>
         <mxCell id="bCG8J4DTJ0kkA4FrQPj9-3" value="fazer login" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -96,6 +96,60 @@
             <mxPoint x="670" y="240" as="sourcePoint" />
             <mxPoint x="570" y="513" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-15" value="Usuário" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="830" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-16" value="criar conta" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry x="60" y="170" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="170" as="sourcePoint" />
+            <mxPoint x="200" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-22" value="Nome" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry x="50" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-23" value="CPF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry x="40" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-24" value="Endereço de e-mail" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry x="20" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-25" value="Numero de telefone" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-15">
+          <mxGeometry x="10" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="930" as="sourcePoint" />
+            <mxPoint x="450" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-20" value="Tarefas" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="170" as="sourcePoint" />
+            <mxPoint x="200" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-31" value="adicionar tarefas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry x="40" y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-32" value="excluir tarefas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry x="35" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-34" value="editar tarefas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry x="35" y="100" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-35" value="informar prazo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry x="35" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ooaHuif_8h9iN1EH35N5-36" value="cadastrar tarefas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ooaHuif_8h9iN1EH35N5-20">
+          <mxGeometry x="40" y="170" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
