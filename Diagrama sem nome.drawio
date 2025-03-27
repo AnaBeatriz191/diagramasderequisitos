@@ -148,6 +148,18 @@
             <mxPoint x="150" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QTn3faf20NsbDTCO7akl-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QTn3faf20NsbDTCO7akl-2" value="médico" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="525" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QTn3faf20NsbDTCO7akl-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.036;entryY=0.686;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QTn3faf20NsbDTCO7akl-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="570" as="sourcePoint" />
+            <mxPoint x="200" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -156,8 +168,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E3KpHw5BUl_x4fMCduPc-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: int&lt;br&gt;+ nome: string&lt;br&gt;+ endereço: string&lt;br&gt;+ email: string&lt;br&gt;+ receita: byte&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ConsultarMedicamento():&amp;nbsp;&lt;br&gt;+ ComprarMedicamento():&lt;br&gt;+ RealizarPagamento():&lt;br&gt;+ realizarcadastro():&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="50" y="70" width="160" height="190" as="geometry" />
+        <mxCell id="E3KpHw5BUl_x4fMCduPc-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ realizarPagamento;int&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;+ ComprarMedicamento():&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="E3KpHw5BUl_x4fMCduPc-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;farmácia&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: int&lt;br&gt;+ nome: string&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ enviarMedicamento():&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="280" y="390" width="160" height="90" as="geometry" />
@@ -195,7 +207,7 @@
         <mxCell id="6_cP0PZ5g_mWI9k7SxUx-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Administrador&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ gerenciarVendas():&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ gerenciarSistema():&lt;br&gt;+ gerenciarPermissões():&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="660" y="250" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0Il4uFHmG_ujsT85mdGC-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="P-1ofHcxla0r7KEcHBdb-1">
+        <mxCell id="0Il4uFHmG_ujsT85mdGC-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.435;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="E3KpHw5BUl_x4fMCduPc-61" target="P-1ofHcxla0r7KEcHBdb-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="270" as="sourcePoint" />
             <mxPoint x="170" y="220" as="targetPoint" />
@@ -242,6 +254,9 @@
             <mxPoint x="660" y="250" as="sourcePoint" />
             <mxPoint x="710" y="200" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1QFQPfwyf16I3XE7TKUD-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Medico&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
